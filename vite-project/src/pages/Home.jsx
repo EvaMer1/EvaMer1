@@ -1,7 +1,9 @@
 import "../App.css"
 const Home = () => {
     return(
-        <div>Home</div>
+        <div>
+            <h1>Главная</h1>
+        </div>
     )
 }
 
