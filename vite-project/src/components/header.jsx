@@ -19,7 +19,7 @@ const Header = () => {
         <Link to={"object"}>Наши объекты</Link>
       </button>
       <button>
-        <Link to={"about"}>О компании</Link>
+        <Link to={"about"}>O компании</Link>
       </button>
     </div>
   );

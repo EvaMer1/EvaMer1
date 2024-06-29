@@ -1,7 +1,16 @@
 import "../App.css"
 const Contact = () => {
     return(
-        <div>Contact</div>
+        <div>
+            <h1>Наши контакты</h1>
+            <div>
+            </div>
+
+        </div>
+
+ 
+
+
     )
 }
 

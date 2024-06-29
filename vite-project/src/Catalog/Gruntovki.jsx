@@ -1,13 +1,9 @@
 import "../App.css"
-import { Link } from "react-router-dom";
-
-
-
-const Catalog = () => {
+import { Link } from "react-router-dom"
+const Gruntovki = () => {
     return(
         <div>
-        <h1>Каталог продукции</h1>
-        <div className="catalog">
+            <h1>Грунтовки</h1>
             <button>
                 <Link to={"/glue"}>Клея</Link>
             </button>
@@ -36,9 +32,7 @@ const Catalog = () => {
                 <Link to={"/paints"}>Краски</Link>
             </button>
         </div>
-        </div>
     )
 }
 
-
-export default Catalog
+export default Gruntovki
