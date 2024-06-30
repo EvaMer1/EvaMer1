@@ -42,6 +42,20 @@ import Warmglue from "../glues/warmglue"
 import Montage from "../glues/montage"
 import Summer from "../glues/summer"
 import Winter from "../glues/winter"
+import Finish from "../Shpaklevki/Finish"
+import Atlas from "../Shpaklevki/Atlas"
+import Saten from "../Shpaklevki/Saten"
+import Vatman from "../Shpaklevki/Vatman"
+import White from "../Shpaklevki/White"
+import Grey from "../Shpaklevki/Grey"
+import Master from "../Shtukaturki/Master"
+import Profi from "../Shtukaturki/Profi"
+import Light from "../Shtukaturki/Light"
+import StartSt from "../Shtukaturki/StartSt"
+import Koroed from "../Shtukaturki/Koroed"
+import Rocks from "../Shtukaturki/Rocks"
+import Effect from "../Shtukaturki/Effect"
+import Base from "../Shtukaturki/Base"
 
 
 export const router = createBrowserRouter([
@@ -79,6 +93,28 @@ export const router = createBrowserRouter([
         { path:"montage",element:<Montage/>},
         { path:"summer",element:<Summer/>},
         { path:"winter",element:<Winter/>},
+
+
+        { path:"finish",element:<Finish/>},
+        { path:"atlas",element:<Atlas/>},
+        { path:"saten",element:<Saten/>},
+        { path:"vatman",element:<Vatman/>},
+        { path:"white",element:<White/>},
+        { path:"grey",element:<Grey/>},
+
+
+
+
+
+        { path:"master",element:<Master/>},
+        { path:"profi",element:<Profi/>},
+        { path:"light",element:<Light/>},
+        { path:"startst",element:<StartSt/>},
+        { path:"koroed",element:<Koroed/>},
+        { path:"rocks",element:<Rocks/>},
+        { path:"effect",element:<Effect/>},
+        { path:"base",element:<Base/>},
+
 
 
 
